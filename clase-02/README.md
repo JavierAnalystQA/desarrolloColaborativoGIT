@@ -41,3 +41,32 @@ Agrego los archivos que me olvidé
 Y luego hago el amend
 
     git commit --amend
+
+## Status de archivos
+
+* Untracked: Archivos que no se agregaron al index (staging area) o sea archivos que están en el Working Directory (WD)
+
+* Unmodified: Son archivos que ya están en el repositorio. O sea ya tienen una foto
+
+* Modified: Son archivos que ya están en el repositorio pero respecto al Working Directory tienen modificaciones detectadas por git. O sea compara la foto del repositorio con el WD.
+
+* Staged: Archivos que están confirmados para ser un próximo commit.
+
+## GIT LOG
+
+### Me muestra una cantidad especifica de commit
+
+    git log --help
+
+> Me muestra los últimos 2 commits
+    
+    git log -2
+
+> Me muestre los commit por
+
+    git log --since="2022-05-01"
+    git log --after="2022-06-01"
+    git log --before="2022-05-01"
+    git log --after="2022-05-01" --before="2022-05-10"
+
+

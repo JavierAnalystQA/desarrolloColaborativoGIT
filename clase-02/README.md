@@ -31,6 +31,13 @@ Me permite mantener y versionar carpetas vacías.
 ### Para hacer un git add y un git commit en simultaneo
 Los archivos que quiero hacer commit deben estar en seguimiendo. Si los archivos no están en seguimiento (O sea Untraked) no me los va a agregar el git add.
 
-    git commmit -am "Mensaje
+    git commit -am "Mensaje"
 
+### Para enmendar un commit
 
+Agrego los archivos que me olvidé
+
+    git add clase-02/cualquiera.md
+Y luego hago el amend
+
+    git commit --amend

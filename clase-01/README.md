@@ -31,7 +31,7 @@
 
 * clear : Limpio la consola
 
-## GIT
+## GIT INTRODUCCIÓN
 
 > Saber si tengo git instalado
 
@@ -53,3 +53,23 @@ LOCAL: Configura usuario y mail para el repositorio actual
     git config --local user.name "nombre"
     git config --local user.email "correo"
 
+### GIT STATUS
+> Me permite ver los cambios que tengo el Working Directory (WD) respecto del Repositorio
+
+    git status
+
+### GIT ADD
+> Me permite agregar archivos al temporal de confirmación de cambio. Siempre tengo que hacer esto cada vez que quiero sacar una foto (commit) 
+> Mueve los archivos del WD al Staging Area (Index)
+
+    git add .
+
+### GIT COMMIT
+> Sacar la foto, colocar lo que tenía en el Staging area en el repositorio.
+
+    git commit -m "Mensaje"
+
+### GIT LOG
+> Me muestra las fotos o los commits que tengo en el repositorio
+
+    git log

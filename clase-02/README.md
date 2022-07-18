@@ -22,3 +22,15 @@ Me permite descartar archivos y carpetas que no quiero subir.
 ## GITKEEP
 Me permite mantener y versionar carpetas vacías.
 
+## GIT COMMIT
+
+### Para hacer un commit 
+
+    git commit -m "Mensaje"
+
+### Para hacer un git add y un git commit en simultaneo
+Los archivos que quiero hacer commit deben estar en seguimiendo. Si los archivos no están en seguimiento (O sea Untraked) no me los va a agregar el git add.
+
+    git commmit -am "Mensaje
+
+

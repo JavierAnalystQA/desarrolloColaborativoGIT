@@ -69,4 +69,18 @@ Y luego hago el amend
     git log --before="2022-05-01"
     git log --after="2022-05-01" --before="2022-05-10"
 
+## GIT RAMAS (Branchs)
 
+> Crear una rama
+
+    git branch <nombre-rama>
+    git branch dev
+
+> Moverme entre ramas
+
+    git switch <nombre-rama>
+    git switch dev
+
+> Para ver las ramas
+
+    git branch

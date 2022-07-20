@@ -45,3 +45,4 @@ Combinar los cambios de una rama con otra. Normalemnte en un nuevo commit
 
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas líneas de un archivos o varios archivos.
 
+# Soy una molestia, voy a generar un conflicto (rama-conflicto)

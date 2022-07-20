@@ -33,6 +33,10 @@ Combinar los cambios de una rama con otra. Normalemnte en un nuevo commit
     git merge <nombre-rama>
     git merge dev
 
+### Abortar la funsión (El merge)
+
+    git merge --abort
+
 ### Tipos de Fusiones/Merge
 
 * Fast-forward (Unión automática) Git no necesita de la asistencia del usuario. Tampoco hay conflictos

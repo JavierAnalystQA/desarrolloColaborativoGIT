@@ -40,3 +40,5 @@ Combinar los cambios de una rama con otra. Normalemnte en un nuevo commit
 * Recursivo (Unión automática). Tampoco hay conflictos.
 
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas líneas de un archivos o varios archivos.
+
+## Agrego otra cosa nueva en la rama master

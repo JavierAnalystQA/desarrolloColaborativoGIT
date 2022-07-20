@@ -26,3 +26,18 @@ Recuerden que este flag me sirve para confirmar el borrado de una rama que no fu
 
     git branch -D <nombre-rama>
     git branch -D dev
+
+## GIT MERGE (Funsiones)
+Combinar los cambios de una rama con otra. Normalemnte en un nuevo commit
+**IMPORTANTE:** Tengo que estar en la rama que espero traerme los cambios. O sea si quiero traerme los cambios de dev a master tengo que estar sobre la rama master y ejecutar el siguiente comando
+
+    git merge <nombre-rama>
+    git merge dev
+
+### Tipos de Fusiones/Merge
+
+* Fast-forward (Unión automática) Git no necesita de la asistencia del usuario. Tampoco hay conflictos
+
+* Recursivo (Unión automática). Tampoco hay conflictos.
+
+* Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas líneas de un archivos o varios archivos.

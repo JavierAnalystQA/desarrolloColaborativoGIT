@@ -1,6 +1,7 @@
 # Clase 03
-
+### ------------------------ ###
 ## GIT RAMAS (Branchs) - REPASO
+### ------------------------ ###
 
 > Crear una rama
 
@@ -34,10 +35,14 @@ Combinar los cambios de una rama con otra. Normalemnte en un nuevo commit
     git merge <nombre-rama>
     git merge dev
 
-### Tipos de Fusiones/Merge
+### ------------------------ ###
+### Tipos de Fusiones/Merge  ###
+### ------------------------ ###
 
 * Fast-forward (Unión automática) Git no necesita de la asistencia del usuario. Tampoco hay conflictos
 
 * Recursivo (Unión automática). Tampoco hay conflictos.
 
 * Manual (Conflictos) Ocurre cuando hay modificaciones en las mismas líneas de un archivos o varios archivos.
+
+### ---------------------------------

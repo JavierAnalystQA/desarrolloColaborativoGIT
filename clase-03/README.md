@@ -24,6 +24,7 @@
 
     git switch -c <nombre-rama>
     git switch -c dev
+    
 > Para borrar una rama remota
 
     git push origin --delete <nombre-rama-remota>

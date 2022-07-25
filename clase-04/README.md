@@ -5,6 +5,22 @@
 **IMPORTANTE:** Tengo que estar ubicado en la rama que espero traerme el o los commits.
 
     git cherry-pick <hash>
+    git cherry-pick <hash1> <hash2> <hash3>
+
+```sh
+    git cherry-pick <hash>^..<hash> #Todos los commits incluidos en el rango y además los extremos
+```
+```sh
+    git cherry-pick <hash>..<hash> #Solo me trae los que están entre esos 2 commits, no las puntas
+```
+
+### SI tengo varios commits, no uno. Voy a tener que hacer
+
+    git cherry-pick --continue
+
+### Para abortar el proceso de cherry-picking
+
+    git cherry-pick --abort
 
 ## GIT ALIAS
 
@@ -20,3 +36,4 @@
 ## Para quitar un alias
 
     git config --global --unset alias.s
+

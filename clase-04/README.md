@@ -37,3 +37,29 @@
 
     git config --global --unset alias.s
 
+
+## GIT STASH
+Es construido basado en una estructura de datos conocida como pila.
+
+> ¿Qué me permite el stash?
+
+Me permite registrar temporalmente los cambios del Working Directory y el Staging AREA.
+
+### Crear un stash
+
+    git stash
+
+### Listar los stash
+
+    git stash list
+
+### Recuperar un stash
+
+**Nota:** Si el stash que estoy tratando de recuperar genera un conflico con mi código, o sea con el código que esta en el working directory. Me va a dejar en la caja de stash el stash. Si no hay conflictos, borra el stash.
+
+    git stash pop
+
+
+
+
+

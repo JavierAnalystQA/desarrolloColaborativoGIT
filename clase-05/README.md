@@ -41,8 +41,51 @@ Por que pierdo lo que tenía dentro de los commits. Es destructivo
 
 ## Apuntadores
 
+> Apuntadores dinamicos
 
+* HEAD
+
+> Apuntadores estaticos
+
+* RAMAS (Locales y remotas)
+* TAG
+* STASH
 ## TAGs
+
+> Listar tags
+
+    git tag
+
+> Crear tags
+
+    git tag <nombre-tag>
+    git tag hasta-aca-todo-ok
+
+> Borrar tags
+
+    git tag -d <nombre-tag>
+    git tag -d hasta-aca-todo-ok
+
+> Crear tag con versionado semantico
+
+    git tag -a v1.0.0 <hash> -m "Versión 1.0.0"
+    git tag -a v1.0.0 f473780 -m "Versión 1.0.0"
+
+* a: anotado
+* m: mensaje
+
+> Ver detalle de los tags, quien creo y en que commit están creados
+
+    git show v1.0.0
+
+> Para subir tags especifico (Recomendada)
+
+    git push origin <nombre-tag>
+    git push origin v1.0.0
+
+> Para subir todos tags (NO RECOMENDADO)
+
+    git push --tags
 
 
 

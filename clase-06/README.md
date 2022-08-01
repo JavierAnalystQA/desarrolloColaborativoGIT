@@ -51,3 +51,6 @@ Una vez solucionados los conflictos con
 
     git add
 
+Continuo el rebase con
+
+    git rebase --continue

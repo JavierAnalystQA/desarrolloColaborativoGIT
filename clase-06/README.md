@@ -63,4 +63,20 @@ Continuo el rebase con
 y: Para confirmar el hunk (Pedacito código)
 n: Para descartar el hunk (Pedacito código)
 
+## GIT REBASE INTERACTIVO (AVANZADO)
 
+### ¿Para qué sirve?
+
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir Commits
+* Separar commits
+
+```sh
+    git rebase -i <hash> # Inmediato inferior a lo que quiero seleccionar
+```
+
+Una vez seleccionos los commits tengo que seguir los pasos que me diciendo git.
+
+> r, reword: Cambiar el mensaje del commit.
+> s, squash: Nos permite funsionar commits. 

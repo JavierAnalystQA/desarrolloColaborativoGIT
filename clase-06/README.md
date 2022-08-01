@@ -28,6 +28,6 @@
 
 <https://bitbucket.org/>
 
-
 ## GIT REBASE
+Integra los cambios de la rama **master** en una nueva rama **rebase** que le faltan los commits que en **master** están. 
 

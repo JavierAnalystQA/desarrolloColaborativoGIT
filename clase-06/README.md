@@ -55,3 +55,12 @@ Una vez solucionados los conflictos con
 Continuo el rebase con
 
     git rebase --continue
+
+## GIT ADD (Continuación)
+
+    git add --patch
+
+y: Para confirmar el hunk (Pedacito código)
+n: Para descartar el hunk (Pedacito código)
+
+

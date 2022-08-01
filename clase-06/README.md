@@ -32,6 +32,15 @@
 
 <https://bitbucket.org/>
 
+## Documentación GIT
+
+> Oficial
+<https://git-scm.com/book/es/v2>
+
+> Atlassian (Bitbucket)
+
+<https://www.atlassian.com/es/git/tutorials>
+
 ## GIT REBASE
 Integra los cambios de la rama **master** en una nueva rama **rebase** que le faltan los commits que en **master** están. 
 

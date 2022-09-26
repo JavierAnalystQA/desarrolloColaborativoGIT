@@ -80,3 +80,5 @@ Una vez seleccionos los commits tengo que seguir los pasos que me diciendo git.
 
 > r, reword: Cambiar el mensaje del commit.
 > s, squash: Nos permite funsionar commits. 
+
+## Prueba con github desktop 
